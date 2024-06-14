@@ -1,0 +1,36 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.grid-container div {
+    width: 33%;
+    height: 30vw;
+    
+}
+
+/* Paso 2: Estilizar las imágenes dentro del contenedor */
+.presentacion:hover img{    
+    opacity: 0.1;
+}
+
+.presentacion img {
+    width: 100%; /* Las imágenes ocupan el ancho completo del contenedor asignado */
+    height: 100%; /* Mantener la proporción de las imágenes */
+}
+.presentacion label {
+    position: relative;
+    visibility: hidden;
+    top: -10rem;;
+    height: auto;
+    width: 100%;
+    text-align: center;    
+}
+
+.presentacion:hover label{    
+    visibility: visible;
+}
+

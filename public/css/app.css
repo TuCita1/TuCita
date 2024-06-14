@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('common/variables.css');
+@import url('component/header.css');
+@import url('component/footer.css');
+@import url('component/login.css');
+@import url('component/cliente.css');
+@import url('component/spa.css');
+@import url('component/salon.css');
+@import url('component/barberia.css');
+
+
+body {
+    margin: 0px;
+    font-family: var(--font);
+    font-optical-sizing: auto;
+    font-weight: 500;    
+}
+

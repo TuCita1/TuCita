@@ -1,0 +1,23 @@
+.login{
+    margin: 4rem;
+    background: var(--color-bacground);
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.login img {
+    height: 5rem;
+    margin: 2rem;
+}
+
+.login button {
+    background-color: var(--color-bacground);
+    color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+.login button:hover {
+    background-color: var(--color-primario);
+    color: var(--color-bacground);
+    border-color: var(--color-primario);
+}
